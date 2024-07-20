@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="bg-orange-light">
-    <div class="container mx-auto">
-        <header class="flex justify-between items-center w-full h-12 mt-8 mb-8">
+    <div class="container mx-auto overflow-hidden px-20">
+        <header class="flex justify-between items-center w-full h-12 my-8">
             <div class="flex items-center gap-3">
                 <div class="">
                     <img src="images/Logo.png" alt="LOGO">
                 </div>
-                <p>FOODBOX</p>
+                <p class="font-extrabold">FOOD<span class="text-orange font-extrabold">BOX</span></p>
             </div>
             
             <div class=" flex gap-10 items-center justify-evenly p-3">
@@ -23,141 +23,156 @@
                 <a href="">Delivery</a>
             </div>
             <div class="flex gap-3">
-                <div class=""><img src="images/search.svg" alt=""></div>
-                <div class=""><img src="images/shopping.svg" alt=""></div>
+                <div class="bg-black p-1.5 rounded-full"><img src="images/search.svg" alt=""></div>
+                <div class="bg-black p-1.5 rounded-full"><img src="images/shopping.svg" alt=""></div>
             </div>
         </header>
-        <div class="flex justify-between align-middle">
+        <div class="flex justify-between mt-8 ">
             <div class="">
-                <p>Feast Your Senses</p>
-                <p>Bon Appétit:
-                    Savor Gastronomic|
-                    Creations</p>
-                <p>Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</p>
-                <div class="">
-                    <button class="">ORDER NOW</button>
-                    <button class="">WATCH DEMO</button>
+                <div class="bg-orange-medium-light rounded-full w-44 p-4 my-4 text-orange">Feast Your Senses</div>
+                <div class="font-extrabold my-4 text-6xl">Bon Appétit:</div> 
+                <div class="font-extrabold my-4 text-6xl text-orange">Savor Gastronomic|</div>
+                <div class="font-extrabold my-4 text-6xl">Creations</div>
+                <div class="text-gray-400 text-lg my-10">Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</div>
+                <div class="flex gap-8">
+                    <button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button>
+                    <button class="text-black">WATCH DEMO</button>
                 </div>
             </div>
             <div class="">
                 <img src="images/HeroImg-W5EhG1Hl.png" alt="">
             </div>
         </div>
-        <div class="my-32">
-            <div class="text-center">Top Categories</div>
+        <div class="my-24">
+            <div class="text-center font-extrabold text-4xl pb-12">Top Categories</div>
             <div class="grid grid-cols-4 text-center gap-6">
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8">
-                    <img src="images/shine-fast-food-combo-1.png" alt="" class="h-40">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                    <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/shine-fast-food-combo-1.png" alt=""></div>
                     <p>Fast Food</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8">
-                    <img src="images/dizzy-plate-with-vegetables.png" alt="" class="h-40">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                    <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/dizzy-plate-with-vegetables.png" alt=""></div>
                     <p>Salad</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8">
-                    <img src="images/glazy-sushi-set.png" alt="" class="h-40">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                    <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/glazy-sushi-set.png" alt=""></div>
                     <p>Chinese</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8">
-                    <img src="images/fabulous-wine-tasting.png" alt="" class="h-40">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                    <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/fabulous-wine-tasting.png" alt=""></div>
                     <p>Drinks</p>
                 </div>
             </div>
         </div>
-        <div class="flex justify-between mb-56">
-            <div class="bg-red-300 relative w-full h-96">
+        <div class="flex justify-between mb-56 gap-8">
+            <div class="relative w-full h-96">
                 <img src="images/imattsmart-8jKUy5SrR-o-unsplash.jpg" alt="" class="h-96 rounded-3xl">
                 <img src="images/melissa-walker-horn-wrPxb-FDp1c-unsplash.jpg" alt="" class="absolute left-52 top-44 h-96 rounded-3xl">
             </div>
-            <div class="bg-red-300">
-                <div class="">Order Your Best Food Any Time</div>
-                <div class="">Whether you're a seasoned chef or a kitchen novice, our user-friendly platform caters to all levels of expertise, ensuring everyone can savor the joy of creating delicious meals.</div>
-                <button class="">ORDER NOW</button>
+            <div class="">
+                <div class="font-extrabold my-4 text-5xl">Order Your Best</div>
+                <div class="font-extrabold my-4 text-5xl">Food Any Time</div>
+                <div class="text-gray-400 text-lg my-10">Whether you're a seasoned chef or a kitchen novice, our user-friendly platform caters to all levels of expertise, ensuring everyone can savor the joy of creating delicious meals.</div>
+                <div class="flex place-content-end"><button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button></div>
+                
             </div>
         </div>
-        <div class="my-24">
-            <div class="text-center">Our Food Process</div>
-            <div class="grid grid-cols-3 g-24">
+        <div class="mb-24">
+            <div class="text-center font-extrabold text-4xl py-12">Our Food Process</div>
+            <div class="grid grid-cols-3 gap-12">
                 <div class="flex flex-col items-center justify-center gap-8">
-                    <img src="images/prepare.png" alt="" class="h-40" >
-                    <p class="text-center">Prepare</p>
+                    <div class="bg-orange-medium-light p-4 w-30 h-30 rounded-full">
+                        <img src="images/prepare.png" alt="" class="h-40" ></div>
+                    <p class="text-center font-bold">Prepare</p>
+                    <p class="text-gray-400 text-center">Restaurants offer a variety of dining experiences</p>
                 </div>
                 <div class="flex flex-col items-center justify-center gap-8">
-                    <img src="images/packaging.png" alt="" class="h-40">
-                    <p class="text-center">Package</p>
+                    <div class="bg-orange-medium-light p-4 w-30 h-30 rounded-full">
+                        <img src="images/packaging.png" alt="" class="h-40">
+                    </div>                  
+                    <p class="text-center font-bold">Package</p>
+                    <p class="text-gray-400 text-center">Catering companies specialize in providing food and beverage services</p>
                 </div>
                 <div class="flex flex-col items-center justify-center gap-8">
-                    <img src="images/packaging.png" alt="" class="h-40">
-                    <p class="text-center">Delivery</p>
+                    <div class="bg-orange-medium-light p-4 w-30 h-30 rounded-full">
+                        <img src="images/packaging.png" alt="" class="h-40">
+                    </div>                  
+                    <p class="text-center font-bold">Delivery</p>
+                        <p class="text-gray-400 text-center">Meal delivery services deliver freshly prepared meals directly to customers</p>
                 </div>
             </div>
         </div>
-        <div class="my-14">
-            <div class="grid grid-cols-3 gap-16 px-48">
-                <div class="">
+        <div class="mb-14">
+            <div class="text-center font-extrabold text-4xl py-12">Customer Reviews</div>
+            <div class="grid grid-cols-3 gap-16 px-36 p-12 bg-orange-medium-light rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
-                <div class="">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
-                <div class="">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
-                <div class="">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
-                <div class="">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
-                <div class="">
+                <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum vel dolorum culpa eos nostrum. Debitis provident asperiores rem distinctio nemo unde dignissimos tempora error eveniet?</p>
-                        <p>Vincent</p>
+                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                        <p class="font-bold">Vincent</p>
                 </div>
             </div>
         </div>
         <div class="my-52">
-            <div class="bg-black relative h-96 rounded-3xl p-12 flex items-center justify-between">
-                <div class="flex gap-12">
+            <div class="bg-black relative rounded-3xl p-10 flex items-center ">
+                <div class="flex gap-4 py-12">
                     <div class="flex flex-col items-center gap-6">
-                        <p class="text-white">Download IOS</p>
+                        <p class="text-white font-bold text-2xl">Download IOS</p>
                         <img src="images/appstore.png" alt="">
                     </div>
-                    <div class="flex flex-col items-center gap-6">
-                        <p class="text-white">Download Android</p>
+                    <div class="flex flex-col items-center gap-6 text-2xl">
+                        <p class="text-white font-bold">Download Android</p>
                         <img src="images/playstore.png" alt="">
                     </div>
                 </div>
-                <img src="images/download.png" alt="">
+                <div class="absolute left-96">
+                    <img src="images/download.png" alt="">
+                </div>
+                
             </div>
         </div>
         <div class="">
             <div class="grid grid-cols-4 my-14">
                 <div class="">
                     <div class="">Logo</div>
-                    <div class="">Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</div>
+                    <div class="">Your ultimate destination for all things food! 
+                        Explore our extensive collection of mouthwatering recipes.</div>
                 </div>
                 <div class="">
                     <div class="">Menu</div>
