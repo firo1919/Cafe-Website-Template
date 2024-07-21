@@ -16,18 +16,19 @@
                 <p class="font-extrabold">FOOD<span class="text-orange font-extrabold">BOX</span></p>
             </div>
             
-            <div class=" flex gap-10 items-center justify-evenly p-3">
-                <a href="">Home</a>
-                <a href="">Menu</a>
-                <a href="">Service</a>
-                <a href="">Delivery</a>
+            <div class=" flex gap-3 items-center justify-evenly p-3">
+                <a href="#home" class="p-4 hover:bg-orange-medium-light hover:text-orange rounded-3xl ">Home</a>
+                <a class="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#menu">Menu</a>
+                <a class="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#services">Services</a>
+                <a class="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#reviews">Reviews</a>
+                <a class="p-4 hover:bg-orange-medium-light rounded-3xl  hover:text-orange" href="#contact">Contact</a>
             </div>
             <div class="flex gap-3">
-                <div class="bg-black p-1.5 rounded-full"><img src="images/search.svg" alt=""></div>
-                <div class="bg-black p-1.5 rounded-full"><img src="images/shopping.svg" alt=""></div>
+                <div class="bg-black p-1.5 rounded-full cursor-pointer"><img src="images/search.svg" alt=""></div>
+                <div class="bg-black p-1.5 rounded-full cursor-pointer"><img src="images/shopping.svg" alt=""></div>
             </div>
         </header>
-        <div class="flex justify-between mt-8 ">
+        <div class="flex justify-between mt-8" id="home">
             <div class="">
                 <div class="bg-orange-medium-light rounded-full w-44 p-4 my-4 text-orange">Feast Your Senses</div>
                 <div class="font-extrabold my-4 text-6xl">Bon Appétit:</div> 
@@ -35,7 +36,12 @@
                 <div class="font-extrabold my-4 text-6xl">Creations</div>
                 <div class="text-gray-400 text-lg my-10">Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</div>
                 <div class="flex gap-8">
-                    <button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button>
+                    <div class="relative">
+                        <button class="bg-orange relative text-white p-3 my-4 w-44 rounded-full">ORDER NOW
+                        <div class="absolute bg-orange animate-ping w-full h-full rounded-full bottom-1"></div>
+                    </button>
+                    </div>
+                    
                     <button class="text-black">WATCH DEMO</button>
                 </div>
             </div>
@@ -43,7 +49,7 @@
                 <img src="images/HeroImg-W5EhG1Hl.png" alt="">
             </div>
         </div>
-        <div class="my-24">
+        <div class="my-24" id="menu">
             <div class="text-center font-extrabold text-4xl pb-12">Top Categories</div>
             <div class="grid grid-cols-4 text-center gap-6">
                 <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
@@ -73,11 +79,11 @@
                 <div class="font-extrabold my-4 text-5xl">Order Your Best</div>
                 <div class="font-extrabold my-4 text-5xl">Food Any Time</div>
                 <div class="text-gray-400 text-lg my-10">Whether you're a seasoned chef or a kitchen novice, our user-friendly platform caters to all levels of expertise, ensuring everyone can savor the joy of creating delicious meals.</div>
-                <div class="flex place-content-end"><button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button></div>
+                <div class="flex place-content-end animate-bounce"><button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button></div>
                 
             </div>
         </div>
-        <div class="mb-24">
+        <div class="mb-24" id="services">
             <div class="text-center font-extrabold text-4xl py-12">Our Food Process</div>
             <div class="grid grid-cols-3 gap-12">
                 <div class="flex flex-col items-center justify-center gap-8">
@@ -102,49 +108,49 @@
                 </div>
             </div>
         </div>
-        <div class="mb-14">
+        <div class="mb-14" id="reviews">
             <div class="text-center font-extrabold text-4xl py-12">Customer Reviews</div>
             <div class="grid grid-cols-3 gap-16 px-36 p-12 bg-orange-medium-light rounded-3xl">
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
-                        <p class="font-bold">Vincent</p>
+                    <p class="pb-6">Amazing food and great atmosphere! The staff was super friendly, and the dessert was to die for. Definitely coming back!</p>
+                        <p class="font-bold">Alice T.</p>
                 </div>
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center">
-                        <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
+                        <img src="images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
-                        <p class="font-bold">Vincent</p>
+                    <p class="pb-6">Good place for a casual dinner. The burgers are delicious, but the service could be a bit faster. Overall, a solid experience.</p>
+                        <p class="font-bold">John D.</p>
                 </div>
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
-                        <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
+                        <img src="images/podmatch-UpiF461EAHU-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
-                        <p class="font-bold">Vincent</p>
+                    <p class="pb-6">Loved the ambiance! The pasta was perfectly cooked, and the wine selection was excellent. Highly recommend for a date night.</p>
+                        <p class="font-bold">Mike B.</p>
                 </div>
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
-                        <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
+                        <img src="images/luis-villasmil-hh3ViD0r0Rc-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
-                        <p class="font-bold">Vincent</p>
+                    <p class="pb-6">Decent food, but nothing spectacular. Prices are reasonable, and the portions are generous. It's a good spot for a quick bite.</p>
+                        <p class="font-bold">Sam K.</p>
                 </div>
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
-                        <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
+                        <img src="images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
-                        <p class="font-bold">Vincent</p>
+                    <p class="pb-6">The sushi was fresh and flavorful, and the presentation was beautiful. The staff made us feel very welcome. A must-visit for sushi lovers!</p>
+                        <p class="font-bold">Emily R.</p>
                 </div>
                 <div class="bg-orange-light p-4 rounded-3xl">
                     <div class="flex justify-center rounded-full">
-                        <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
+                        <img src="images/leio-mclaren-L2dTmhQzx4Q-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
-                    <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid cumque necessitatibus dolorem earum</p>
+                    <p class="pb-6">Had a fantastic brunch here. The eggs Benedict was spot on, and the coffee was strong and tasty. Will definitely be back to try more!</p>
                         <p class="font-bold">Vincent</p>
                 </div>
             </div>
@@ -152,11 +158,11 @@
         <div class="my-52">
             <div class="bg-black relative rounded-3xl p-10 flex items-center ">
                 <div class="flex gap-4 py-12">
-                    <div class="flex flex-col items-center gap-6">
+                    <div class="flex flex-col items-center gap-6 cursor-pointer">
                         <p class="text-white font-bold text-2xl">Download IOS</p>
                         <img src="images/appstore.png" alt="">
                     </div>
-                    <div class="flex flex-col items-center gap-6 text-2xl">
+                    <div class="flex flex-col items-center gap-6 text-2xl cursor-pointer">
                         <p class="text-white font-bold">Download Android</p>
                         <img src="images/playstore.png" alt="">
                     </div>
@@ -167,16 +173,21 @@
                 
             </div>
         </div>
-        <div class="">
-            <div class="grid grid-cols-4 my-14">
+        <div class="" id="contact">
+            <div class="grid grid-cols-4 my-14 gap-8">
                 <div class="">
-                    <div class="">Logo</div>
+                    <div class="flex items-center gap-3 pb-4">
+                        <div class="">
+                            <img src="images/Logo.png" alt="LOGO">
+                        </div>
+                        <p class="font-extrabold">FOOD<span class="text-orange font-extrabold">BOX</span></p>
+                    </div>
                     <div class="">Your ultimate destination for all things food! 
                         Explore our extensive collection of mouthwatering recipes.</div>
                 </div>
                 <div class="">
-                    <div class="">Menu</div>
-                    <div class="">
+                    <div class="font-extrabold text-2xl pb-6">Menu</div>
+                    <div class="flex flex-col">
                         <a href="">About</a>
                         <a href="">Menu</a>
                         <a href="">Event</a>
@@ -184,8 +195,8 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="">Information</div>
-                    <div class="">
+                    <div class="font-extrabold text-2xl pb-6">Information</div>
+                    <div class="flex flex-col">
                         <a href="">Contact</a>
                         <a href="">Order & Returns</a>
                         <a href="">Videos</a>
@@ -193,8 +204,8 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="">Address</div>
-                    <div class="">
+                    <div class="font-extrabold text-2xl pb-6">Address</div>
+                    <div class="flex flex-col">
                         <a href="">1234 Bay Ln, City</a>
                         <a href="">Statename, 23416</a>
                         <a href="">9:00 Am - 12:00 PM</a>
@@ -202,7 +213,15 @@
                 </div>
             </div>
             <div class=" flex flex-col items-center">
-                <div class="">Copyright (c) 2024 sitename | All rights reserved.</div>
+                <div class="flex gap-4 p-4">
+                    <div class="bg-orange-medium-light p-3 rounded-full">
+                        <img src="images/facebook.svg" alt="">
+                    </div>
+                    <div class="bg-orange-medium-light p-3 rounded-full"><img src="images/instagram.svg" alt=""></div>
+                    <div class="bg-orange-medium-light p-3 rounded-full"><img src="images/twitter-x.svg" alt=""></div>
+                    <div class="bg-orange-medium-light p-3 rounded-full"><img src="images/tiktok.svg" alt=""></div>
+                </div>
+                <div class="text-gray-400 p-4">Copyright (c) 2024 sitename | All rights reserved.</div>
             </div>
         </div>
     </div>
