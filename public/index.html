@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="bg-orange-light">
-    <div class="container mx-auto overflow-hidden px-20">
+    <div class="container mx-auto overflow-hidden px-4 md:px-10 lg:px-20">
         <header class="flex justify-between items-center w-full h-12 my-8">
             <div class="flex items-center gap-3">
                 <div class="">
@@ -16,7 +16,7 @@
                 <p class="font-extrabold">FOOD<span class="text-orange font-extrabold">BOX</span></p>
             </div>
             
-            <div class=" flex gap-3 items-center justify-evenly p-3">
+            <div class=" lg:flex gap-3 items-center justify-evenly p-3 hidden">
                 <a href="#home" class="p-4 hover:bg-orange-medium-light hover:text-orange rounded-3xl ">Home</a>
                 <a class="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#menu">Menu</a>
                 <a class="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#services">Services</a>
@@ -28,13 +28,13 @@
                 <div class="bg-black p-1.5 rounded-full cursor-pointer"><img src="images/shopping.svg" alt=""></div>
             </div>
         </header>
-        <div class="flex justify-between mt-8" id="home">
-            <div class="">
+        <div class="flex flex-col md:flex-row justify-between mt-8" id="home">
+            <div class="w-96 lg:w-full">
                 <div class="bg-orange-medium-light rounded-full w-44 p-4 my-4 text-orange">Feast Your Senses</div>
-                <div class="font-extrabold my-4 text-6xl">Bon Appétit:</div> 
-                <div class="font-extrabold my-4 text-6xl text-orange">Savor Gastronomic|</div>
-                <div class="font-extrabold my-4 text-6xl">Creations</div>
-                <div class="text-gray-400 text-lg my-10">Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</div>
+                <div class="font-extrabold my-2 lg:my-4 text-3xl lg:text-5xl">Bon Appétit:</div> 
+                <div class="font-extrabold my-2 lg:my-4 text-3xl lg:text-5xl text-orange">Savor Gastronomic|</div>
+                <div class="font-extrabold my-2 lg:my-4 text-3xl lg:text-5xl">Creations</div>
+                <div class="text-gray-400 text-lg my-5 lg:my-10 lg:w-[500px]">Your ultimate destination for all things food! Explore our extensive collection of mouthwatering recipes.</div>
                 <div class="flex gap-8">
                     <div class="relative">
                         <button class="bg-orange relative text-white p-3 my-4 w-44 rounded-full">ORDER NOW
@@ -51,33 +51,33 @@
         </div>
         <div class="my-24" id="menu">
             <div class="text-center font-extrabold text-4xl pb-12">Top Categories</div>
-            <div class="grid grid-cols-4 text-center gap-6">
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+            <div class="grid grid-cols-2 lg:grid-cols-4 text-center gap-6">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16 hover:scale-110 hover:bg-orange transition-all duration-500">
                     <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/shine-fast-food-combo-1.png" alt=""></div>
                     <p>Fast Food</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16 hover:scale-110 hover:bg-orange transition-all duration-500">
                     <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/dizzy-plate-with-vegetables.png" alt=""></div>
                     <p>Salad</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16 hover:scale-110 hover:bg-orange transition-all duration-500">
                     <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/glazy-sushi-set.png" alt=""></div>
                     <p>Chinese</p>
                 </div>
-                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16">
+                <div class="border rounded-3xl flex flex-col items-center justify-center gap-8 p-16 hover:scale-110 hover:bg-orange transition-all duration-500">
                     <div class="bg-orange-medium-light p-4 w-40 h-40 rounded-full"><img src="images/fabulous-wine-tasting.png" alt=""></div>
                     <p>Drinks</p>
                 </div>
             </div>
         </div>
-        <div class="flex justify-between mb-56 gap-8">
-            <div class="relative w-full h-96">
-                <img src="images/imattsmart-8jKUy5SrR-o-unsplash.jpg" alt="" class="h-96 rounded-3xl">
-                <img src="images/melissa-walker-horn-wrPxb-FDp1c-unsplash.jpg" alt="" class="absolute left-52 top-44 h-96 rounded-3xl">
+        <div class="flex mb-56 md:gap-12 flex-col md:flex-row">
+            <div class="relative w-full  md:scale-75 lg:scale-90 order-last md:order-first">
+                <img src="images/imattsmart-8jKUy5SrR-o-unsplash.jpg" alt="" class="h-72 md:h-96 rounded-3xl object-fill">
+                <img src="images/melissa-walker-horn-wrPxb-FDp1c-unsplash.jpg" alt="" class="absolute left-40 md:left-52 top-44 h-72 md:h-96 rounded-3xl">
             </div>
-            <div class="">
-                <div class="font-extrabold my-4 text-5xl">Order Your Best</div>
-                <div class="font-extrabold my-4 text-5xl">Food Any Time</div>
+            <div class="w-full md:w-2/3 lg:w-full">
+                <div class="font-extrabold my-4 text-3xl lg:text-5xl">Order Your Best</div>
+                <div class="font-extrabold my-4 text-3xl lg:text-5xl">Food Any Time</div>
                 <div class="text-gray-400 text-lg my-10">Whether you're a seasoned chef or a kitchen novice, our user-friendly platform caters to all levels of expertise, ensuring everyone can savor the joy of creating delicious meals.</div>
                 <div class="flex place-content-end animate-bounce"><button class="bg-orange text-white p-3 my-4 w-44 rounded-full">ORDER NOW</button></div>
                 
@@ -85,7 +85,7 @@
         </div>
         <div class="mb-24" id="services">
             <div class="text-center font-extrabold text-4xl py-12">Our Food Process</div>
-            <div class="grid grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div class="flex flex-col items-center justify-center gap-8">
                     <div class="bg-orange-medium-light p-4 w-30 h-30 rounded-full">
                         <img src="images/prepare.png" alt="" class="h-40" ></div>
@@ -110,43 +110,43 @@
         </div>
         <div class="mb-14" id="reviews">
             <div class="text-center font-extrabold text-4xl py-12">Customer Reviews</div>
-            <div class="grid grid-cols-3 gap-16 px-36 p-12 bg-orange-medium-light rounded-3xl">
-                <div class="bg-orange-light p-4 rounded-3xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 px-16 lg:px-36 p-12 bg-orange-medium-light rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center">
                         <img src="images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
                     <p class="pb-6">Amazing food and great atmosphere! The staff was super friendly, and the dessert was to die for. Definitely coming back!</p>
                         <p class="font-bold">Alice T.</p>
                 </div>
-                <div class="bg-orange-light p-4 rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center">
                         <img src="images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
                     <p class="pb-6">Good place for a casual dinner. The burgers are delicious, but the service could be a bit faster. Overall, a solid experience.</p>
                         <p class="font-bold">John D.</p>
                 </div>
-                <div class="bg-orange-light p-4 rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center rounded-full">
                         <img src="images/podmatch-UpiF461EAHU-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
                     <p class="pb-6">Loved the ambiance! The pasta was perfectly cooked, and the wine selection was excellent. Highly recommend for a date night.</p>
                         <p class="font-bold">Mike B.</p>
                 </div>
-                <div class="bg-orange-light p-4 rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center rounded-full">
                         <img src="images/luis-villasmil-hh3ViD0r0Rc-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
                     <p class="pb-6">Decent food, but nothing spectacular. Prices are reasonable, and the portions are generous. It's a good spot for a quick bite.</p>
                         <p class="font-bold">Sam K.</p>
                 </div>
-                <div class="bg-orange-light p-4 rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center rounded-full">
                         <img src="images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
                     <p class="pb-6">The sushi was fresh and flavorful, and the presentation was beautiful. The staff made us feel very welcome. A must-visit for sushi lovers!</p>
                         <p class="font-bold">Emily R.</p>
                 </div>
-                <div class="bg-orange-light p-4 rounded-3xl">
+                <div class="bg-orange-light p-4 rounded-3xl hover:scale-110 transition-all duration-500">
                     <div class="flex justify-center rounded-full">
                         <img src="images/leio-mclaren-L2dTmhQzx4Q-unsplash.jpg" alt="" class="p-6 w-40 h-40 rounded-full">
                     </div>
@@ -156,25 +156,25 @@
             </div>
         </div>
         <div class="my-52">
-            <div class="bg-black relative rounded-3xl p-10 flex items-center ">
-                <div class="flex gap-4 py-12">
-                    <div class="flex flex-col items-center gap-6 cursor-pointer">
-                        <p class="text-white font-bold text-2xl">Download IOS</p>
+            <div class="bg-black lg:relative rounded-3xl lg:p-10 md:p-0 p-10 flex flex-col lg:flex-row items-center">
+                <div class="flex flex-col md:flex-row gap-4 md:py-12">
+                    <div class="flex flex-row md:flex-col items-center gap-6 cursor-pointer">
+                        <p class="text-white font-bold  text-4xl lg:text-2xl">Download IOS</p>
                         <img src="images/appstore.png" alt="">
                     </div>
-                    <div class="flex flex-col items-center gap-6 text-2xl cursor-pointer">
+                    <div class="flex flex-row md:flex-col items-center gap-6  text-4xl lg:text-2xl cursor-pointer">
                         <p class="text-white font-bold">Download Android</p>
                         <img src="images/playstore.png" alt="">
                     </div>
                 </div>
-                <div class="absolute left-96">
+                <div class="lg:absolute left-96  lg:w-8/12">
                     <img src="images/download.png" alt="">
                 </div>
                 
             </div>
         </div>
         <div class="" id="contact">
-            <div class="grid grid-cols-4 my-14 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 my-14 gap-8">
                 <div class="">
                     <div class="flex items-center gap-3 pb-4">
                         <div class="">
