@@ -1,10 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 function Header() {
     return (
         <header className=" py-10 px-4 md:px-16 lg:px-24 flex justify-between items-center h-12 sticky top-0 z-10 bg-white">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => {scroll.scrollToTop()}}>
                 <div className="">
                     <img src="images/Logo.png" alt="LOGO" />
                 </div>
@@ -13,21 +14,21 @@ function Header() {
                 </p>
             </div>
             <div className=" lg:flex gap-3 items-center justify-evenly p-3 hidden">
-                <a href="#home" className="p-4 hover:bg-orange-medium-light hover:text-orange rounded-3xl ">
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light hover:text-orange rounded-3xl " activeClass="active" spy={true} offset={-75} to="home" smooth={true} duration={500}>
                     Home
-                </a>
-                <a className="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#menu">
+                </Link>
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-75}  to="menu" smooth={true} duration={500}>
                     Menu
-                </a>
-                <a className="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#services">
+                </Link>
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-75}  to="services" smooth={true} duration={500}>
                     Services
-                </a>
-                <a className="p-4 hover:bg-orange-medium-light rounded-3xl hover:text-orange" href="#reviews">
+                </Link>
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-75}  to="reviews" smooth={true} duration={500}>
                     Reviews
-                </a>
-                <a className="p-4 hover:bg-orange-medium-light rounded-3xl  hover:text-orange" href="#contact">
+                </Link>
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl  hover:text-orange" activeClass="active" spy={true} offset={50}  to="contact" smooth={true} duration={500}>
                     Contact
-                </a>
+                </Link>
             </div>
             <div className="flex gap-3">
                 <div className="bg-black p-1.5 rounded-full cursor-pointer">
