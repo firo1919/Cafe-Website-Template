@@ -1,21 +1,16 @@
-import React, { useEffect } from "react";
 import TextAnimation from "./TextAnimation";
-import AOS from "aos";
-
+import AOS from 'aos';
+import { useEffect } from "react";
 function Hero() {
-
     useEffect(() => {
-            AOS.init(
-            );
-        }
-        ,[]);
+        AOS.init();
+    },[]);
     return (
         <div className=" container mx-auto px-4 md:px-10 lg:justify-between lg:px-16 flex flex-col md:flex-row  mt-8" id="home" data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center">
+        data-aos-once="false">
             <div className="md:w-1/2 lg:w-full ">
                 <div className="bg-orange-medium-light rounded-full w-44 p-4 my-4 text-orange">
                     Feast Your Senses
@@ -44,8 +39,8 @@ function Hero() {
                     <button className="bg-black text-white p-3 my-4 w-44 rounded-full">WATCH DEMO</button>
                 </div>
             </div>
-            <div className="w-1/2">
-                <img src="images/HeroImg-W5EhG1Hl.png" alt="" />
+            <div>
+                <img className="w-full" src="images/HeroImg-W5EhG1Hl.png" alt="" />
             </div>
         </div>
     );

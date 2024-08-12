@@ -4,7 +4,7 @@ import {Link, animateScroll as scroll} from "react-scroll";
 
 function Header() {
     return (
-        <header className=" py-10 px-4 md:px-16 lg:px-24 flex justify-between items-center h-12 sticky top-0 z-10 bg-white">
+        <header className=" py-10 px-4 md:px-16 lg:px-24 flex justify-between items-center h-12 bg-white">
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => {scroll.scrollToTop()}}>
                 <div className="">
                     <img src="images/Logo.png" alt="LOGO" />
@@ -17,7 +17,7 @@ function Header() {
                 <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light hover:text-orange rounded-3xl " activeClass="active" spy={true} offset={-75} to="home" smooth={true} duration={500}>
                     Home
                 </Link>
-                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-75}  to="menu" smooth={true} duration={500}>
+                <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-200}  to="menu" smooth={true} duration={500}>
                     Menu
                 </Link>
                 <Link className="cursor-pointer p-4 transition-colors duration-500 hover:bg-orange-medium-light rounded-3xl hover:text-orange" activeClass="active" spy={true}  offset={-75}  to="services" smooth={true} duration={500}>

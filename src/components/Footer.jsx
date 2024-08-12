@@ -2,7 +2,11 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer  className="container mx-auto px-4 md:px-10 lg:px-16" id="contact">
+        <footer  className="container mx-auto px-4 md:px-10 lg:px-16" id="contact" data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">
             <div className="grid grid-cols-1 md:grid-cols-4 my-14 gap-8">
                 <div className="">
                     <div className="flex items-center gap-3 pb-4">
