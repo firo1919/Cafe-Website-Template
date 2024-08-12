@@ -2,11 +2,7 @@ import React from "react";
 
 function Reviews() {
     return (
-        <div className="mb-14" id="reviews" data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false">
+        <div className="mb-14" id="reviews" data-aos="fade-up">
             <div className="text-center font-extrabold text-4xl py-12">Customer Reviews</div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 px-16 lg:px-36 p-12 bg-orange-medium-light">
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">

@@ -4,7 +4,7 @@ import {Link, animateScroll as scroll} from "react-scroll";
 
 function Header() {
     return (
-        <header className=" py-10 px-4 md:px-16 lg:px-24 flex justify-between items-center h-12 bg-white">
+        <header className=" py-10 px-4 md:px-16 lg:px-24 flex justify-between items-center h-12">
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => {scroll.scrollToTop()}}>
                 <div className="">
                     <img src="images/Logo.png" alt="LOGO" />

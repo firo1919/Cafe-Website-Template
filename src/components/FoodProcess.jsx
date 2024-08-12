@@ -2,11 +2,7 @@ import React from "react";
 
 function FoodProcess() {
     return (
-        <div className="container mx-auto px-4 md:px-10 lg:px-16 mb-24 " id="services" data-aos="fade"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false">
+        <div className="container mx-auto px-4 md:px-10 lg:px-16 mb-24 " id="services" data-aos="fade">
             <div className="text-center font-extrabold text-4xl py-12">Our Food Process</div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div className="flex flex-col items-center justify-center gap-8" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">

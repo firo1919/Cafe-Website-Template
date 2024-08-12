@@ -1,16 +1,7 @@
 import TextAnimation from "./TextAnimation";
-import AOS from 'aos';
-import { useEffect } from "react";
 function Hero() {
-    useEffect(() => {
-        AOS.init();
-    },[]);
     return (
-        <div className=" container mx-auto px-4 md:px-10 lg:justify-between lg:px-16 flex flex-col md:flex-row  mt-8" id="home" data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false">
+        <div className=" container mx-auto px-4 md:px-10 lg:justify-between lg:px-16 flex flex-col md:flex-row  mt-8" id="home" data-aos="fade-up">
             <div className="md:w-1/2 lg:w-full ">
                 <div className="bg-orange-medium-light rounded-full w-44 p-4 my-4 text-orange">
                     Feast Your Senses
