@@ -1,13 +1,17 @@
-import React from "react";
+import Logo from '../images/Logo.png';
+import FacebookIcon from '../images/facebook.svg';
+import InstagramIcon from '../images/instagram.svg';
+import TwitterIcon from '../images/twitter-x.svg';
+import TikTokIcon from '../images/tiktok.svg';
 
 function Footer() {
     return (
-        <footer  className="container mx-auto px-4 md:px-10 lg:px-16" id="contact" data-aos="fade-up">
+        <footer className="container mx-auto px-4 md:px-10 lg:px-16" id="contact" data-aos="fade-up">
             <div className="grid grid-cols-1 md:grid-cols-4 my-14 gap-8">
                 <div className="">
                     <div className="flex items-center gap-3 pb-4">
                         <div className="">
-                            <img src="images/Logo.png" alt="LOGO" />
+                            <img src={Logo} alt="LOGO" />
                         </div>
                         <p className="font-extrabold">
                             FOOD
@@ -53,16 +57,16 @@ function Footer() {
             <div className="flex flex-col items-center">
                 <div className="flex gap-4 p-4">
                     <div className="bg-orange-medium-light p-3 rounded-full">
-                        <img src="images/facebook.svg" alt="" />
+                        <img src={FacebookIcon} alt="Facebook" />
                     </div>
                     <div className="bg-orange-medium-light p-3 rounded-full">
-                        <img src="images/instagram.svg" alt="" />
+                        <img src={InstagramIcon} alt="Instagram" />
                     </div>
                     <div className="bg-orange-medium-light p-3 rounded-full">
-                        <img src="images/twitter-x.svg" alt="" />
+                        <img src={TwitterIcon} alt="Twitter" />
                     </div>
                     <div className="bg-orange-medium-light p-3 rounded-full">
-                        <img src="images/tiktok.svg" alt="" />
+                        <img src={TikTokIcon} alt="TikTok" />
                     </div>
                 </div>
                 <div className="text-gray-400 text-center p-4">

@@ -1,4 +1,6 @@
-import React from "react";
+import appStoreImage from '../images/appstore.png';
+import playStoreImage from '../images/playstore.png';
+import downloadImage from '../images/download.png';
 
 function Download() {
     return (
@@ -7,15 +9,15 @@ function Download() {
                 <div className="flex flex-col md:flex-row gap-4 md:py-12">
                     <div className="flex flex-row md:flex-col items-center gap-6 cursor-pointer">
                         <p className="text-white font-bold  text-4xl lg:text-2xl">Download IOS</p>
-                        <img src="images/appstore.png" alt="" />
+                        <img src={appStoreImage} alt="App Store" />
                     </div>
                     <div className="flex flex-row md:flex-col items-center gap-6  text-4xl lg:text-2xl cursor-pointer">
                         <p className="text-white font-bold">Download Android</p>
-                        <img src="images/playstore.png" alt="" />
+                        <img src={playStoreImage} alt="Play Store" />
                     </div>
                 </div>
                 <div className="lg:absolute left-96  lg:w-8/12" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
-                    <img src="images/download.png" alt="" />
+                    <img src={downloadImage} alt="Download" />
                 </div>
             </div>
         </div>

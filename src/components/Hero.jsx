@@ -1,4 +1,6 @@
 import TextAnimation from "./TextAnimation";
+import HeroImage from "../images/HeroImg-W5EhG1Hl.png";
+
 function Hero() {
     return (
         <div className=" container mx-auto px-4 md:px-10 lg:justify-between lg:px-16 flex flex-col md:flex-row  mt-8" id="home" data-aos="fade-up">
@@ -31,7 +33,7 @@ function Hero() {
                 </div>
             </div>
             <div>
-                <img className="w-full" src="images/HeroImg-W5EhG1Hl.png" alt="" />
+                <img className="w-full" src={HeroImage} alt="Hero" />
             </div>
         </div>
     );
