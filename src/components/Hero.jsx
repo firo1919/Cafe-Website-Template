@@ -33,7 +33,7 @@ function Hero() {
                 </div>
             </div>
             <div>
-                <img className="w-full" src={HeroImage} alt="Hero" loading="eager" />
+                <img className="w-full" src={HeroImage} alt="Hero" loading="eager" fetchPriority="high" />
             </div>
         </div>
     );
