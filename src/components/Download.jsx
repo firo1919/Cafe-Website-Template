@@ -1,6 +1,6 @@
-import appStoreImage from '../images/appstore.png';
-import playStoreImage from '../images/playstore.png';
-import downloadImage from '../images/download.png';
+import appStoreImage from '@/assets/images/appstore.webp';
+import playStoreImage from '@/assets/images/playstore.webp';
+import downloadImage from '@/assets/images/download.webp';
 
 function Download() {
     return (
@@ -9,15 +9,15 @@ function Download() {
                 <div className="flex flex-col md:flex-row gap-4 md:py-12">
                     <div className="flex flex-row md:flex-col items-center gap-6 cursor-pointer">
                         <p className="text-white font-bold  text-4xl lg:text-2xl">Download IOS</p>
-                        <img src={appStoreImage} alt="App Store" />
+                        <img src={appStoreImage} alt="App Store" loading="lazy" />
                     </div>
                     <div className="flex flex-row md:flex-col items-center gap-6  text-4xl lg:text-2xl cursor-pointer">
                         <p className="text-white font-bold">Download Android</p>
-                        <img src={playStoreImage} alt="Play Store" />
+                        <img src={playStoreImage} alt="Play Store" loading="lazy" />
                     </div>
                 </div>
                 <div className="lg:absolute left-96  lg:w-8/12" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
-                    <img src={downloadImage} alt="Download" />
+                    <img src={downloadImage} alt="Download" loading="lazy" />
                 </div>
             </div>
         </div>

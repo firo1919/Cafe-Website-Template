@@ -1,12 +1,12 @@
-import pic1 from '../images/imattsmart-8jKUy5SrR-o-unsplash.jpg'
-import pic2 from '../images/melissa-walker-horn-wrPxb-FDp1c-unsplash.jpg'
+import pic1 from '@/assets/images/imattsmart-8jKUy5SrR-o-unsplash.webp'
+import pic2 from '@/assets/images/melissa-walker-horn-wrPxb-FDp1c-unsplash.webp'
 
 function OrderNow() {
     return (
         <div className="container mx-auto px-4 md:px-10 lg:px-16 flex mb-56 md:gap-12 flex-col md:flex-row" data-aos="fade">
             <div className="relative w-full  md:scale-75 lg:scale-90 order-last md:order-first">
-                <img src={pic1} alt="" className="h-72 md:h-96 rounded-3xl" data-aos="fade-right" />
-                <img src={pic2} alt="" className=" absolute left-40 md:left-52 top-44 h-72 md:h-96 rounded-3xl" data-aos="fade-up" />
+                <img src={pic1} alt="" className="h-72 md:h-96 rounded-3xl" data-aos="fade-right" loading="lazy" />
+                <img src={pic2} alt="" className=" absolute left-40 md:left-52 top-44 h-72 md:h-96 rounded-3xl" data-aos="fade-up" loading="lazy" />
             </div>
             <div className="w-full md:w-2/3 lg:w-full">
                 <div className="font-extrabold my-4 text-3xl lg:text-5xl">Order Your Best</div>

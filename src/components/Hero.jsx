@@ -1,5 +1,5 @@
 import TextAnimation from "./TextAnimation";
-import HeroImage from "../images/HeroImg-W5EhG1Hl.png";
+import HeroImage from "@/assets/images/HeroImg-W5EhG1Hl.webp";
 
 function Hero() {
     return (
@@ -33,7 +33,7 @@ function Hero() {
                 </div>
             </div>
             <div>
-                <img className="w-full" src={HeroImage} alt="Hero" />
+                <img className="w-full" src={HeroImage} alt="Hero" loading="eager" />
             </div>
         </div>
     );

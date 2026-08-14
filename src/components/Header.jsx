@@ -1,8 +1,8 @@
 import Nav from "./Nav";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Logo from "../images/Logo.png";
-import SearchIcon from "../images/search.svg";
-import ShoppingIcon from "../images/shopping.svg";
+import Logo from "@/assets/images/Logo.webp";
+import SearchIcon from "@/assets/images/search.svg";
+import ShoppingIcon from "@/assets/images/shopping.svg";
 
 function Header() {
     return (
@@ -14,7 +14,7 @@ function Header() {
                 }}
             >
                 <div className="">
-                    <img src={Logo} alt="LOGO" />
+                    <img src={Logo} alt="LOGO" loading="eager" />
                 </div>
                 <p className="font-extrabold">
                     FOOD<span className="text-orange font-extrabold">BOX</span>

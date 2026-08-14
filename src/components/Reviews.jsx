@@ -1,9 +1,9 @@
-import zoeFernandez from "../images/zoe-fernandez--zqoE7jnQgw-unsplash.jpg";
-import josephGonzalez from "../images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg";
-import podmatch from "../images/podmatch-UpiF461EAHU-unsplash.jpg";
-import luisVillasmil from "../images/luis-villasmil-hh3ViD0r0Rc-unsplash.jpg";
-import matheusFerrero from "../images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg";
-import leioMclaren from "../images/leio-mclaren-L2dTmhQzx4Q-unsplash.jpg";
+import zoeFernandez from "@/assets/images/zoe-fernandez--zqoE7jnQgw-unsplash.webp";
+import josephGonzalez from "@/assets/images/joseph-gonzalez-iFgRcqHznqg-unsplash.webp";
+import podmatch from "@/assets/images/podmatch-UpiF461EAHU-unsplash.webp";
+import luisVillasmil from "@/assets/images/luis-villasmil-hh3ViD0r0Rc-unsplash.webp";
+import matheusFerrero from "@/assets/images/matheus-ferrero-W7b3eDUb_2I-unsplash.webp";
+import leioMclaren from "@/assets/images/leio-mclaren-L2dTmhQzx4Q-unsplash.webp";
 
 function Reviews() {
     return (
@@ -12,42 +12,42 @@ function Reviews() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 px-16 lg:px-36 p-12 bg-orange-medium-light">
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center">
-                        <img src={zoeFernandez} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={zoeFernandez} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">Amazing food and great atmosphere! The staff was super friendly, and the dessert was to die for. Definitely coming back!</p>
                     <p className="font-bold">Alice T.</p>
                 </div>
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center">
-                        <img src={josephGonzalez} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={josephGonzalez} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">Good place for a casual dinner. The burgers are delicious, but the service could be a bit faster. Overall, a solid experience.</p>
                     <p className="font-bold">John D.</p>
                 </div>
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center rounded-full">
-                        <img src={podmatch} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={podmatch} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">Loved the ambiance! The pasta was perfectly cooked, and the wine selection was excellent. Highly recommend for a date night.</p>
                     <p className="font-bold">Mike B.</p>
                 </div>
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center rounded-full">
-                        <img src={luisVillasmil} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={luisVillasmil} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">Decent food, but nothing spectacular. Prices are reasonable, and the portions are generous. It&apos;s a good spot for a quick bite.</p>
                     <p className="font-bold">Sam K.</p>
                 </div>
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center rounded-full">
-                        <img src={matheusFerrero} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={matheusFerrero} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">The sushi was fresh and flavorful, and the presentation was beautiful. The staff made us feel very welcome. A must-visit for sushi lovers!</p>
                     <p className="font-bold">Emily R.</p>
                 </div>
                 <div className="bg-orange-light p-4 rounded-3xl" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000">
                     <div className="flex justify-center rounded-full">
-                        <img src={leioMclaren} alt="" className="p-6 w-40 h-40 rounded-full" />
+                        <img src={leioMclaren} alt="" className="p-6 w-40 h-40 rounded-full" loading="lazy" />
                     </div>
                     <p className="pb-6">Had a fantastic brunch here. The eggs Benedict was spot on, and the coffee was strong and tasty. Will definitely be back to try more!</p>
                     <p className="font-bold">Vincent</p>
